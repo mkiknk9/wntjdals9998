@@ -2,16 +2,49 @@
 <html>
   <head>
     <title>>WEB1 - Welcome</title>
-    <meta charset="utf-8"
+    <meta charset="utf-8">
+    <style>
+     a {
+       color: black;
+       text-decoration: none;
+     }
+     #active{
+       color: red;
+     }
+     h1 {
+       font-size:60px;
+       text-align: center;
+     }
+     a:visited{
+       color:gray
+     }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N7NFJEZ1YM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N7NFJEZ1YM');
+</script>
   </head>
   <body>
-    <h1><a href="index.html">WEB</a></h1>
+    <h1><a href="index.html" id="active">WEB</a></h1>
   <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
   </ol>
 
+<!--
+  <h1><a href="index.html"><font color="red">WEB</a></h1>
+<ol>
+  <li><a href="1.html"><font color="red">HTML</a></li>
+  <li><a href="2.html"><font color="red">CSS</a></li>
+  <li><a href="3.html"><font color="red">JavaScript</a></li>
+</ol>
+-->
 
   <h2>WEB이란 무엇인가?</h2>
   Web usually refers to:
@@ -27,5 +60,6 @@
     <h4> This is heading 4</h>
       <h5>This is heading 5</h>
         <h6>This is heading 6</h>
+
  </body>
  </html>
